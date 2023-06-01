@@ -16,11 +16,9 @@ Implementation of linear push actions with UR5e, Robotiq 2F-85 gripper and custo
 ## Latency distributions
 The [latency distributions](https://github.com/DominikUrbaniak/Latency_Push_Actions/tree/main/latency_distributions) of Ethernet and private 4G, private 5G, 5G URLLC, and ideal and loaded Wi-Fi 5 networks are owned by Aalborg University, Denmark. The usage of this data requires the citation of two papers¹.
 
-## Run experiments
-*ros2 launch main_pkg main.launch.py*
+## Run experiment
 
-Choose one experiment and execute following commands in a second terminal:
-
+- *ros2 launch main_pkg main.launch.py*
 - *ros2 run experiments push_rot_gazebo 0.05*
 - *ros2 run experiments push_rot_main_fresh 0.05 private5g 0.0001 1 0 1*
 
